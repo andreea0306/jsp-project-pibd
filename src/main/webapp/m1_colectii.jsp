@@ -104,7 +104,7 @@
                 <input type="submit" value="Modifica linia">
             </p>
         </form>
-        <p align="center"">
+        <p align="center">
             <a href="index.html"><b>Home</b></a>
             <br/>
     </body>
