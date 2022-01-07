@@ -7176,10 +7176,10 @@ a.text-dark:hover, a.text-dark:focus {
         </ul>
         <p class="d-none d-md-block lead mb-0  text-white"><b>MUZIHUB</b></p>
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item mx-1"> <a class="nav-link" href="#">
+                    <li class="nav-item mx-1"> <a class="nav-link" href="https://github.com/andreea0306/jsp-project-pibd">
               <i class="fa fa-github fa-fw fa-lg"></i>
             </a> </li>
-          <li class="nav-item mx-1"> <a class="nav-link" href="#">
+          <li class="nav-item mx-1"> <a class="nav-link" href="https://gitlab.upb.ro/andreea.andrei">
               <i class="fa fa-gitlab fa-fw fa-lg"></i>
             </a> </li>
           <li class="nav-item mx-1"> <a class="nav-link" href="#">
@@ -7202,10 +7202,17 @@ a.text-dark:hover, a.text-dark:focus {
 		jb.adaugaColectie(java.lang.Integer.parseInt(id1), java.lang.Integer.parseInt(id2), NumeColectie, AnAparitie);
 		jb.disconnect();
 	%>
+	<div class="py-5 text-center text-white">
+        <div class="container">
+          <div class="row">
+            <div class="p-5 col-lg-6 col-10 mx-auto border">
+              <h1 class="mb-4">Adauga Colectie</h1>
   <p>Datele au fost adaugate.</p>
-  		<form action="tabela_muzicieniTEST.jsp" method="post">
+  <form action="tabela_colectiiTEST.jsp" method="post">
   		<button class="btn btn-secondary" href="tebela_colectiiTEST.jsp">Inapoi</button>
   		</form>
+  </div></div></div></div>
+  		
   <%
 	} else {
 	jb.connect();

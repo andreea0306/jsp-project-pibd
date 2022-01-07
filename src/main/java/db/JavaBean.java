@@ -72,6 +72,7 @@ public class JavaBean {
 	public void adaugaMuzician(String Nume, String Prenume, String DataNasterii, String Trupa)
 			throws SQLException, Exception {
 		if (con != null) {
+			
 			try {
 				Statement stmt;
 				stmt = con.createStatement();

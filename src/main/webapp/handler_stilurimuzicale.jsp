@@ -7148,10 +7148,10 @@ a.text-dark:hover, a.text-dark:focus {
         </ul>
         <p class="d-none d-md-block lead mb-0  text-white"><b>MUZIHUB</b></p>
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item mx-1"> <a class="nav-link" href="#">
+                   <li class="nav-item mx-1"> <a class="nav-link" href="https://github.com/andreea0306/jsp-project-pibd">
               <i class="fa fa-github fa-fw fa-lg"></i>
             </a> </li>
-          <li class="nav-item mx-1"> <a class="nav-link" href="#">
+          <li class="nav-item mx-1"> <a class="nav-link" href="https://gitlab.upb.ro/andreea.andrei">
               <i class="fa fa-gitlab fa-fw fa-lg"></i>
             </a> </li>
           <li class="nav-item mx-1"> <a class="nav-link" href="#">
